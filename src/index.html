@@ -14,19 +14,19 @@
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="./images/ebac_logo.svg" alt="">
+            <img class="hero__logo" src="/src/images/logo-montanha.png" alt="motanha">
             <p class="hero__text">
-                O maior evento de tecnologia começa em: <span id="contador"></span>
+                O maior excurção de todos os tempos começa em: <span id="contador"></span>
             </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
-                        Allianz Park - Barra Funda - são paulo
+                        Chapada Diamantina - Bahia - Brazil
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Preço</b>
-                        A partir de R$ 120,00
+                        A partir de R$ 1200,00
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Data</b>
@@ -39,51 +39,55 @@
             </div>
         </div>
     </header>
-    <section class="event event--frontend">
+    <div>
+        <h1 class="hero__text">Você irá conhecer:</h1>
+    </div>
+    <section class="event event--cachoeira">
         <div class="container" data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">Front-end</h2>
+                <h2 class="event__details__title">Cachoeiras</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
                 </p>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="front-end">
+            <img class="event__image" src="./images/cahoeira.jpg" alt="cachoeira">
         </div>
     </section>
-    <section class="event event--ui-ux event--image-left">
+    <section class="event event--montanhismo event--image-left">
         <div class="container" data-aos="fade-left">
             <div class="event__details">
-                <h2 class="event__details__title">UI/UX</h2>
+                <h2 class="event__details__title">Montanhismo</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
                 </p>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="front-end">
+            <img class="event__image" src="./images/turista.jpg" alt="montanhista">
         </div>
     </section>
-    <section class="event event--data-science">
+    <section class="event event--cachoeira-baixo">
         <div class="container"  data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">Data science</h2>
+                <h2 class="event__details__title">Cachoeira de Baixo</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
                 </p>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="front-end">
+            <img class="event__image" src="./images/cachoeira-de-baixo.jpg" alt="front-end">
         </div>
     </section>
-    <section class="event event--backend event--image-left">
+    <section class="event event--recanto event--image-left">
         <div class="container" data-aos="fade-left">
             <div class="event__backend">
-                <h2 class="event__details__title">Back-end</h2>
+                <h2 class="event__details__title">Recanto dos Passáros</h2>
                 <p class="event__details__description">
                     Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
                 </p>
             </div>
-            <img class="event__image" src="./images/frontend.png" alt="front-end">
+            <img class="event__image" src="./images/recanto.jpg" alt="front-end">
         </div>
     </section>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
+    <script>AOS.init();</script>
 </body>
 </html>
