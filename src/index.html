@@ -1,93 +1,92 @@
 <!DOCTYPE html>
-<html lang="ptBR">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Evento</title>
+    <title>EBAC Tech Talks</title>
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/main.scss">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <script src="scripts/main.js"></script>
 </head>
 <body>
     <header class="hero">
         <div class="container">
-            <img class="hero__logo" src="/src/images/logo-montanha.png" alt="motanha">
+            <img class="hero__logo" src="./images/ebac_logo.svg" alt="EBAC">
             <p class="hero__text">
-                O maior excurção de todos os tempos começa em: <span id="contador"></span>
+                O maior evento de tecnologia do Brasil começa em <span id="contador"></span>
             </p>
             <div class="infos-bar">
                 <ul class="infos-bar__infos">
                     <li class="infos-bar__infos__item">
                         <b>Localização</b>
-                        Chapada Diamantina - Bahia - Brazil
+                        Allianz Parque - Barra Funda - São Paulo
                     </li>
                     <li class="infos-bar__infos__item">
                         <b>Preço</b>
-                        A partir de R$ 1200,00
+                        A partir de R$ 120,00
                     </li>
                     <li class="infos-bar__infos__item">
-                        <b>Data</b>
-                        12/12/2022 ás 15hrs
+                        <b>Quando</b>
+                        12/12/2022 às 19hrs
                     </li>
                 </ul>
-                <a class="button button--primary" href="">
+                <a href="#" class="button button--primary">
                     Garanta sua vaga
                 </a>
             </div>
         </div>
     </header>
-    <div>
-        <h1 class="hero__text">Você irá conhecer:</h1>
-    </div>
-    <section class="event event--cachoeira">
+
+    <section class="event event--frontend">
         <div class="container" data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">Cachoeiras</h2>
+                <h2 class="event__details__title">Front-end</h2>
                 <p class="event__details__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
                 </p>
             </div>
-            <img class="event__image" src="./images/cahoeira.jpg" alt="cachoeira">
+            <img class="event__image" src="./images/frontend.png" alt="Front-end">
         </div>
     </section>
-    <section class="event event--montanhismo event--image-left">
+    <section class="event event--ui-ux event--image-left">
         <div class="container" data-aos="fade-left">
             <div class="event__details">
-                <h2 class="event__details__title">Montanhismo</h2>
+                <h2 class="event__details__title">UI/UX</h2>
                 <p class="event__details__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
                 </p>
             </div>
-            <img class="event__image" src="./images/turista.jpg" alt="montanhista">
+            <img class="event__image" src="./images/ui-ux.png" alt="UI/UX">
         </div>
     </section>
-    <section class="event event--cachoeira-baixo">
-        <div class="container"  data-aos="fade-right">
+    <section class="event event--data-science">
+        <div class="container" data-aos="fade-right">
             <div class="event__details">
-                <h2 class="event__details__title">Cachoeira de Baixo</h2>
+                <h2 class="event__details__title">Data Science</h2>
                 <p class="event__details__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
                 </p>
             </div>
-            <img class="event__image" src="./images/cachoeira-de-baixo.jpg" alt="front-end">
+            <img class="event__image" src="./images/data.png" alt="Data Science">
         </div>
     </section>
-    <section class="event event--recanto event--image-left">
-        <div class="container" data-aos="fade-left">
-            <div class="event__backend">
-                <h2 class="event__details__title">Recanto dos Passáros</h2>
+    <section class="event event--backend event--image-left">
+        <div class="container" data-aos="fade-left"> 
+            <div class="event__details">
+                <h2 class="event__details__title">Back-end</h2>
                 <p class="event__details__description">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, aut eum, praesentium labore maiores repellat ad eos id dolor maxime, doloribus quisquam blanditiis illum dicta? Porro est iusto architecto vel.
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquid maiores vel alias obcaecati quidem eaque consectetur non distinctio, molestiae labore reprehenderit? Amet culpa facere iure autem atque unde quos sequi.
                 </p>
             </div>
-            <img class="event__image" src="./images/recanto.jpg" alt="front-end">
+            <img class="event__image" src="./images/backend.png" alt="Back-end">
         </div>
     </section>
+
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="scripts/main.js"></script>
-    <script>AOS.init();</script>
 </body>
 </html>
